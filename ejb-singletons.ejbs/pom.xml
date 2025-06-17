@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>pzrep.ejb-depends-on-module-name</groupId>
+        <artifactId>ejb-depends-on-module-name</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>ejb-singletons.ejbs</artifactId>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>ejb-singletons.ejb-base</module>
+        <module>ejb-singletons.ejb-file-name</module>
+        <module>ejb-singletons.ejb-module-name</module>
+    </modules>
+</project>
